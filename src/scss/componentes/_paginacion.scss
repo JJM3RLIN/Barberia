@@ -1,0 +1,17 @@
+@use 'base/mixins' as m;
+.paginacion{
+    @include m.tablet{
+        display: flex;
+        justify-content: space-between;
+    }
+    button{
+        margin: 0 0 1rem 0;
+        
+    }
+}
+.ocultar{
+    visibility: hidden;
+    /*display: none; el dom lo toma como si no existiera y me recorre
+    los bototns dando una mala experiencia por lo que solo es mejor que no sea visible 
+    pero que el DOM tome como que si esta ahí*/
+}

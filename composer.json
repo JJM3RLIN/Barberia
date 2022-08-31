@@ -1,0 +1,23 @@
+{
+    "name": "georg/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP 8, repaso  y practica de sass, gulp, sql,mvc",
+    "type": "project",
+    "autoload": {
+        
+        "psr-4":{
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Models\\": "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorge Merlin",
+            "email": "jjimenezm1703@alumno.ipn.mx"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    }
+}

@@ -1,0 +1,1 @@
+function buscarPorFecha(){document.querySelector("#fecha").addEventListener("change",e=>{const n=e.target.value;window.location="/admin?fecha="+n})}document.addEventListener("DOMContentLoaded",()=>{buscarPorFecha()});
